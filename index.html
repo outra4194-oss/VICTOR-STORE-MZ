@@ -1034,21 +1034,22 @@
     <a href="https://wa.me/258847747163" target="_blank" class="whatsapp-fab" title="Conversar no WhatsApp"></a>
 
     <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-auth-compat.js"></script> <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-firestore-compat.js"></script>
 
     <script>
         const firebaseConfig = {
-            apiKey: "AIzaSyCZHFDKSySrqujb9rxahxE-_gBDaPRKa5Y",
-            authDomain: "victor-store-bcc03.firebaseapp.com",
-            projectId: "victor-store-bcc03",
-            storageBucket: "victor-store-bcc03.firebasestorage.app",
-            messagingSenderId: "990526373609",
-            appId: "1:990526373609:web:a72759b0ac2d823e6c3a78"
+            apiKey: "AIzaSyDFSYB7msWpajN3kaOxA76-TM5UcUmmoTA",
+            authDomain: "victor-store-mz.firebaseapp.com",
+            projectId: "victor-store-mz",
+            storageBucket: "victor-store-mz.firebasestorage.app",
+            messagingSenderId: "892629714671",
+            appId: "1:892629714671:web:454ce4760e1ed793bb7d1a"
         };
 
         // Inicializa Firebase
         firebase.initializeApp(firebaseConfig);
-        const auth = firebase.auth(); // Referência ao serviço de autenticação
+        const auth = firebase.auth();
         const db = firebase.firestore();
 
         // Variáveis globais para controlar o estado de login (agora gerenciado pelo Firebase Auth)
